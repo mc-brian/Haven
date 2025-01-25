@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haven</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold">Haven</a>
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="#about" class="hover:text-gray-400">Discover</a></li>
+            <li><a href="#curated" class="hover:text-gray-400">Curated</a></li>
+            <li><a href="#" class="hover:text-gray-400">Originals</a></li>
+            <li><a href="#news" class="hover:text-gray-400">News</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 px-4">
+            <h1 class="text-4xl font-bold mb-4">Dive into Cinematic Gems</h1>
+            <p class="mb-6">
+              Discover a world of captivating films, curated by our team of
+              passionate cinephiles.
+            </p>
+            <a
+              href="#"
+              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+              >Explore Now</a
+            >
+          </div>
+          <div class="md:w-1/2 px-4">
+            <img src="/img/La_Cienaga.jpg" alt="Film reel" class="w-full">
+          </div>
+        </div>
+      </section>
+
+      <section id="curated">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Curated for You</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="card rounded-lg overflow-hidden">
+              <img src="/img/Oldboy.jpg" alt="Film poster" class="w-full">
+              <div class="p-4">
+                <h3 class="text-xl font-bold mb-2">Oldboy</h3>
+                <p class="text-gray-400">Park Chan-wook, South Korea 2003</p>
+              </div>
+            </div>
+            <div class="card rounded-lg overflow-hidden">
+              <img
+                src="/img/Mulholland_Drive.jpg"
+                alt="Film poster"
+                class="w-full">
+              <div class="p-4">
+                <h3 class="text-xl font-bold mb-2">MULHOLLAND DRIVE</h3>
+                <p class="text-gray-400">
+                  David Lynch, Estados Unidos, Francia 2001
+                </p>
+              </div>
+            </div>
+            <div class="card rounded-lg overflow-hidden">
+              <img
+                src="/img/Perfect_days.jpg"
+                alt="Film poster"
+                class="w-full">
+              <div class="p-4">
+                <h3 class="text-xl font-bold mb-2">Perfect days</h3>
+                <p class="text-gray-400">Wim Wenders, Japón, Alemania, 2023</p>
+              </div>
+            </div>
+            <div class="card rounded-lg overflow-hidden">
+              <img src="/img/Aftersun.jpg" alt="Film poster" class="w-full">
+              <div class="p-4">
+                <h3 class="text-xl font-bold mb-2">Aftersun</h3>
+                <p class="text-gray-400">
+                  Charlotte Wells, Reino Unido, Estados Unidos, 2022
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="news">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Featured News</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="card rounded-lg overflow-hidden">
+              <img
+                src="/img/ParisTexas.jpg"
+                alt="News thumbnail"
+                class="w-full">
+              <div class="p-4">
+                <h3 class="text-xl font-bold mb-2">
+                  Paris, Texas - Wim Wenders' Poetic Masterpiece
+                </h3>
+                <p class="text-gray-400">
+                  An acclaimed drama about a man's emotional journey to
+                  reconnect with his past and rediscover his identity, featuring
+                  stunning cinematography and a powerful performance by Harry
+                  Dean Stanton.
+                </p>
+                <a href="#" class="text-blue-500 hover:text-blue-400"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="card rounded-lg overflow-hidden">
+              <img
+                src="/img/Dogville.jpg"
+                alt="News thumbnail"
+                class="w-full">
+              <div class="p-4">
+                <h3 class="text-xl font-bold mb-2">
+                  Dogville - Lars von Trier's Unconventional Examination of
+                  Community
+                </h3>
+                <p class="text-gray-400">
+                  A bold, stylized drama that uses a minimalist stage-like set
+                  to dissect the dark underbelly of a small town, presenting a
+                  provocative commentary on human nature and the fragility of
+                  social contracts.
+                </p>
+                <a href="#" class="text-blue-500 hover:text-blue-400"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="card rounded-lg overflow-hidden">
+              <img
+                src="/img/ElSacrificio.jpg"
+                alt="News thumbnail"
+                class="w-full">
+              <div class="p-4">
+                <h3 class="text-xl font-bold mb-2">
+                  Offret (The Sacrifice) - Tarkovsky's Contemplative Farewell
+                </h3>
+                <p class="text-gray-400">
+                  In Andrei Tarkovsky's final film, a man makes a sacrifice to
+                  stop an impending nuclear war, exploring themes of mortality,
+                  faith, and the human condition through the director's
+                  signature meditative style.
+                </p>
+                <a href="#" class="text-blue-500 hover:text-blue-400"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-8">
+      <div class="container mx-auto flex justify-between items-center">
+        <p>&copy; 2025 Cinephile's Haven. All rights reserved.</p>
+        <div class="space-x-4">
+          <a href="#about" class="hover:text-gray-400">About</a>
+          <a href="#" class="hover:text-gray-400">Contact</a>
+          <a href="#" class="hover:text-gray-400">Terms</a>
+          <a href="#" class="hover:text-gray-400">Privacy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
