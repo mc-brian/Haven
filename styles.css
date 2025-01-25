@@ -105,3 +105,33 @@ footer a {
 footer a:hover {
   color: #2d3748;
 }
+
+/*Gallery styles*/
+
+.gallery-card {
+  position: relative;
+  border: 1px solid #e2e8f0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-image {
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-video {
+  display: none;
+}
+
+.gallery-card:hover .gallery-image {
+  opacity: 0;
+}
+
+.gallery-card:hover .gallery-video {
+  display: block;
+}
